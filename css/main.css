@@ -1,0 +1,543 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+	width: 1280px;
+	height: 5000px;
+	background-color: antiquewhite;
+	margin: 0 auto;
+}
+.banner
+{
+	width: 1280px;
+	height: 800px;
+	background-color: aqua;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* HEADER */
+
+
+header
+{
+	width: 1280px;
+	height: 80px;
+	
+	margin: 0 auto;
+	position: absolute;
+}
+header img
+{
+	position: absolute;
+	left: 150px;
+	top: 38px;
+}
+
+.dathen
+{
+	width: 200px;
+	height:40px;
+	border: 1px solid rgba(255,255,255,1.00);
+  	border-radius: 25px;
+	position: absolute;
+	left: 930px;
+	top: 28px;
+	color: rgba(255,255,255,1.00);
+}
+.dathen p a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+	
+	
+}
+.dathen p
+{
+	font-size: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	margin-top:12px;
+	
+}
+.learnmore
+{
+	width:150px; 
+	height:40px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border: solid 2px #AAAAAA; 
+	border-radius: 30px; 
+	position: absolute;
+	top:500px;
+	left: 195px;
+	text-align: center;
+	line-height: 40px;
+	
+}
+.learnmore a
+{
+	text-decoration: none;
+	color: #000000;
+}
+.learnmore:hover
+{
+	background-color: #FDCC3C;
+}
+
+.contactus
+{
+	width:150px; 
+	height:40px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	border: solid 2px #AAAAAA; 
+	border-radius: 30px; 
+	position: absolute;
+	top:500px;
+	left: 395px;
+	text-align: center;
+	line-height: 40px;
+	
+}
+.contactus a
+{
+	text-decoration: none;
+	color: #000000;
+}
+.contactus:hover
+{
+	background-color: #FDCC3C;
+}
+
+
+
+header ul
+{
+	list-style: none;
+	margin-left: 300px;
+	padding:0px;
+}
+header ul li
+{
+	float: left;
+	padding: 25px 40px 25px 40px;
+	font-size: 16px;
+	position: relative;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+	
+	
+}
+header ul li a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,1.00);
+}
+/*header ul li:hover
+{
+	background-color: antiquewhite;
+}*/
+header ul li ul
+{
+	
+	position: absolute;
+	left: -300px;
+	top: 50px;
+	visibility: hidden;
+	font-size: 16px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+header ul li ul li
+{
+	width: 88px;
+	
+}
+header ul li:hover ul
+{
+	visibility: visible;
+}
+
+/* END HEADER */
+
+
+.fourbox
+{
+	width: 1280px;
+	height: 440px;
+	background-color: #0A39D0;
+	margin: 0 auto;
+	position: relative;
+}
+.box
+{
+	width: 886px;
+	height: 280px;
+	position: absolute;
+
+	margin-top: 80px;
+	margin-left: 197px;
+	
+
+}
+
+
+
+.box1
+{
+	width: 214px;
+	height: 280px;
+	background-color: rgba(215,207,207,0.20);
+	position: relative;
+	float: left;
+	
+}
+.box1:hover
+{
+	-webkit-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);	
+}
+
+.box2:hover
+{
+	-webkit-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);	
+}
+.box3:hover
+{
+	-webkit-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);	
+}
+
+.box4:hover
+{
+	-webkit-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);	
+}
+
+.box1 img
+{
+	position: absolute;
+	left: 75px;
+	top: 30px;
+}
+
+.box1 h3
+{
+	color: rgba(255,255,255,1.00);
+	font-size: 15px;
+	margin-top: 50%;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.box1 p
+{
+	text-align: center;
+	color: rgba(181,181,181,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*.ani-box img
+{
+	animation: scale 1s linear 1s forwards;
+	opacity: 0;
+}
+
+@keyframes scale
+{
+	0%
+	{
+		transform: scale(0);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+*/
+.ani-text 
+{
+	animation: scale1 1s linear 1s forwards;
+	opacity: 0;
+}
+
+@keyframes scale1
+{
+	0%
+	{
+		transform: scale(0);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+
+
+
+.box2
+{
+	width: 214px;
+	height: 280px;
+	background-color: rgba(215,207,207,0.20);
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+
+.box2 img
+{
+	position: absolute;
+	left: 70px;
+	top: 30px;
+}
+
+.box2 h3
+{
+	color: rgba(255,255,255,1.00);
+	font-size: 15px;
+	margin-top: 50%;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.box2 p
+{
+	text-align: center;
+	color: rgba(181,181,181,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.box3
+{
+	width: 214px;
+	height: 280px;
+	background-color: rgba(215,207,207,0.20);
+	float: left;
+	margin-left: 10px;
+	position: relative;
+	
+}
+
+.box3 img
+{
+	position: absolute;
+	left: 70px;
+	top: 30px;
+}
+
+.box3 h3
+{
+	color: rgba(255,255,255,1.00);
+	font-size: 15px;
+	margin-top: 50%;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.box3 p
+{
+	text-align: center;
+	color: rgba(181,181,181,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.box4
+{
+	width: 214px;
+	height: 280px;
+	background-color: rgba(215,207,207,0.20);
+	float: right;
+	position: relative;
+}
+
+.box4 img
+{
+	position: absolute;
+	left: 68px;
+	top: 30px;
+}
+
+.box4 h3
+{
+	color: rgba(255,255,255,1.00);
+	font-size: 15px;
+	margin-top: 50%;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.box4 p
+{
+	text-align: center;
+	color: rgba(181,181,181,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.box a
+{
+	margin-left: 72px;
+	text-decoration: none;
+	color:rgba(255,255,255,1.00);
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+
+/* END BOX */
+
+.middle1
+{
+	width: 1280px;
+	height: 900px;
+	background-color: chartreuse;
+	margin: 0 auto;
+	position: relative
+}
+
+.middle1 img
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.find
+{
+	width: 120px;
+	height: 40px;
+	background-color: #F8B31F;
+	position: absolute;
+	border-radius: 126px 126px 126px 126px;
+	-moz-border-radius: 126px 126px 126px 126px;
+	-webkit-border-radius: 126px 126px 126px 126px;
+	border: 0px solid #000000;
+	line-height: 40px;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-left: 190px;
+	margin-top: 380px;
+
+}
+
+.find a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+.textbox
+{
+	width: 800px;
+	height:200px;
+	
+	margin: auto;
+	position: absolute;
+	top: 600px;
+	left: 260px;
+}
+.text1
+{
+	width: 180px;
+	float: left;
+	margin-right: 70px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.text2
+{
+	width: 200px;
+	float: left;
+	margin-right: 40px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.text3
+{
+	width: 250px;
+	float: right;
+	margin-right: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+
+.solieu
+{
+	width: 1280px;
+	height: 283px;
+	background-color: #0A39D0;
+	margin: 0 auto;
+	position: relative;
+}
+.solieu img
+{
+	position: absolute;
+}
+
+.middle2
+{
+	width: 1280px;
+	height: 1070px;
+	background-color: rgba(255,255,255,1.00);
+	margin: 0 auto;
+	position: relative;
+}
+
+.cross
+{
+	width: 1280px;
+	height: 265px;
+	background-color: rgba(231,231,231,1.00);
+	position: absolute;
+	top: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
